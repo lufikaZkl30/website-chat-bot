@@ -1,4 +1,6 @@
-const API_KEY = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro?key=AIzaSyB3bt76NB4aGLgBw70--qowPl1x7b4BYow"; 
+// const API_KEY = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro?key=AIzaSyB3bt76NB4aGLgBw70--qowPl1x7b4BYow"; 
+
+const API_KEY = "AIzaSyB3bt76NB4aGLgBw70--qowPl1x7b4BYow";
 
 const chatBox = document.getElementById("chat-box");
 const userInput = document.getElementById("user-input");

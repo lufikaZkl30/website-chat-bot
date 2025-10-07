@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot Gemini JS</title>
+  <style>
+    body {font-family: Poppins, sans-serif; background:#f7f7f7; display:flex; justify-content:center; align-items:center; height:100vh;}
+    .chatbox {width:400px; height:500px; background:white; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.2); display:flex; flex-direction:column;}
+    .messages {flex:1; padding:15px; overflow-y:auto;}
+    .input-box {display:flex; border-top:1px solid #ddd;}
+    input {flex:1; padding:10px; border:none;}
+    button {padding:10px; background:#ff7070; color:white; border:none; cursor:pointer;}
+  </style>
+</head>
+<body>
+  <div class="chatbox">
+    <div class="messages" id="messages"></div>
+    <div class="input-box">
+      <input type="text" id="userInput" placeholder="Ketik pesan...">
+      <button onclick="sendMessage()">Kirim</button>
+    </div>
+  </div>
+
+  <script type="module" src="asset/javascript/script.js"></script>
+</body>
+</html>
